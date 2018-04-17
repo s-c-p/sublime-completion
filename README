@@ -5,7 +5,7 @@ Sublime completion for vim
 ## desire
 
 to be like sublime when it comes to auto-completion
-  * fuzzy matching everywhere instead of just prefix based search,
+	* fuzzy matching everywhere instead of just prefix based search,
 	  this is something vim doesn't do natively
 	* in human lang
 		- std dictionary + user defined words in this file
@@ -20,6 +20,7 @@ to be like sublime when it comes to auto-completion
 		  explicit way (like `<TAB-f>` for file path completion).
 	* absolutely no support for anything like `full line completion`
 
+show (book)marks in minimap
 
 ## without any plugins
 
@@ -27,4 +28,31 @@ to be like sublime when it comes to auto-completion
 see-- https://codeyarns.com/2016/10/06/how-to-autocomplete-path-in-vim-insert-mode/
 
 `ins-completion`, `complete`, `completeopt`
+look up these topics in `:h` as well as on vim wikia
+
 awesome-- https://www.youtube.com/watch?v=3TX3kV3TICU
+
+
+## see
+
+https://github.com/xmementoit/vim-ide
+https://github.com/grigio/vim-sublime
+https://github.com/fatih/subvim
+vim.wikia.com/wiki/Use_Vim_like_an_IDE
+
+https://github.com/ctrlpvim/ctrlp.vim/blob/master/doc/ctrlp.txt#L1164
+
+
+
+
+
+
+### last session
+
+AutoComplPop
+http://vim.wikia.com/wiki/Omni_completion_popup_menu
+https://stackoverflow.com/questions/8308467/change-omnicomplete-on-the-fly-using-supertab
+
+https://github.com/maralla/completor.vim
+https://github.com/ervandew/supertab
+https://github.com/ajh17/VimCompletesMe
