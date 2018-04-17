@@ -1,0 +1,30 @@
+# sublime-completion
+
+Sublime completion for vim
+
+## desire
+
+to be like sublime when it comes to auto-completion
+  * fuzzy matching everywhere instead of just prefix based search,
+	  this is something vim doesn't do natively
+	* in human lang
+		- std dictionary + user defined words in this file
+		- ability to index files (by extension) in curr dir
+	* in prog lang
+		- show completion menu when 3 chars have been typed
+		- cycle through completions using tab only
+		- some smart way to exploit all kinds of completion vim provides
+		  like ctag completion (intellisensey), file path completion, etc.
+		  USING both implicit way (context aware, like seek preceeding `::`
+		  in c++ code to know that ctag completion is what is needed) and
+		  explicit way (like `<TAB-f>` for file path completion).
+	* absolutely no support for anything like `full line completion`
+
+
+## without any plugins
+
+`<c-x> <c-f>` will auto complete path
+see-- https://codeyarns.com/2016/10/06/how-to-autocomplete-path-in-vim-insert-mode/
+
+`ins-completion`, `complete`, `completeopt`
+awesome-- https://www.youtube.com/watch?v=3TX3kV3TICU
